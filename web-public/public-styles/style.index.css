@@ -4,6 +4,23 @@ body {
     background-size: cover;
 }
 
+.index-links {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+}
+
+.index-links img {
+    height: 5vh;
+    width: auto;
+    transition: 0.5s;
+}
+
+.index-links img:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
 .index-logo {
     position: fixed;
     top: 50%;

@@ -1,0 +1,21 @@
+body {
+    user-select: none;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.index-logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 35vh;
+    width: auto;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.index-logo:hover {
+    height: 25vh;
+    width: auto;
+    transition: 0.5s;
+}
